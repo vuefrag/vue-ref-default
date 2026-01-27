@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="vue-ref-default" width="100%" />
+  <img src="logo.svg" alt="vue-ref-default" width="180" />
 </p>
 
 <h1 align="center">vue-ref-default</h1>
