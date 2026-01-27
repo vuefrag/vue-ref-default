@@ -1,7 +1,7 @@
 {
   "name": "vue-ref-default",
-  "version": "1.0.0",
-  "description": "Vue 3 computed ref providing fallback for null/undefined values",
+  "version": "1.0.1",
+  "description": "Vue 3 composable utility",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,7 +15,8 @@
   "files": [
     "dist",
     "logo.svg",
-    "banner.svg"
+    "banner.svg",
+    "README.md"
   ],
   "scripts": {
     "build": "unbuild",
@@ -23,23 +24,12 @@
     "postpublish": "cp README.github.md README.md"
   },
   "keywords": [
-    "vue",
-    "vue3",
-    "vue-3",
-    "composable",
-    "composition-api",
-    "vueuse",
-    "reactive",
-    "reactivity",
-    "computed",
     "ref",
-    "state",
     "default",
     "fallback",
     "nullable",
     "value",
-    "nullish-coalescing",
-    "refDefault"
+    "nullish-coalescing"
   ],
   "author": "VueFrag",
   "license": "MIT",
