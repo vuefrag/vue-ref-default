@@ -4,7 +4,7 @@
 
 <h1 align="center">vue-ref-default</h1>
 
-<p align="center"></p>
+<p align="center">A Vue 3 composition API utility that wraps a ref with a computed property returning a default value when the source is null or undefined. Supports both read and write operations.</p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-ref-default"><img src="https://img.shields.io/npm/v/vue-ref-default.svg" alt="npm version" /></a>
@@ -18,8 +18,6 @@ npm install vue-ref-default
 ```
 
 ## Usage
-
-> **Note:** This example has been hand-crafted for clarity. Original example requires useStorage which isn't in this standalone package
 
 ```ts
 import { refDefault } from 'vue-ref-default'
