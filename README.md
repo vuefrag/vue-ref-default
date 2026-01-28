@@ -19,12 +19,13 @@ npm install vue-ref-default
 
 ## Usage
 
-Apply default value to a ref.
+> **Note:** This example has been hand-crafted for clarity. Original example requires useStorage which isn't in this standalone package
 
 ```ts
-import { refDefault, useStorage } from 'vue-ref-default'
+import { refDefault } from 'vue-ref-default'
+import { ref } from 'vue'
 
-const raw = useStorage('key')
+const raw = ref<string | undefined>()
 const state = refDefault(raw, 'default')
 
 raw.value = 'hello'
